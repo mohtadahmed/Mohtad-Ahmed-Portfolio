@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  font-family: "Changa", sans-serif;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(50deg, #2e86de, #ff9ff3); */
+  background: linear-gradient(-45deg, #009fff, #ec2f4b);
+}
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.logo {
+  width: 50%;
+  height: 100px;
+}
+.logo a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 25px;
+  display: inline;
+  line-height: 100px;
+  font-family: "Italianno", cursive;
+  border: 2px solid white;
+  border-radius: 5px 5px;
+  /* box-shadow: 5px 5px black; */
+  padding: 20px;
+}
+.logo a:hover {
+  /* background: linear-gradient(45deg, #54a0ff, #f368e0);
+  color: black; */
+  /* background: linear-gradient(-75deg, #0f0c29, #302b63, #24243e);
+  color: white; */
+  background: linear-gradient(#56ccf2, #2f80ed);
+  color: black;
+  transition: 0.5s;
+  font-weight: 450;
+}
+.menu {
+  width: 50%;
+  height: 100px;
+}
+.menu ul {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  /* border: 2px solid white; */
+  border-radius: 5px 5px;
+  /* box-shadow: 2px 2px black; */
+  padding: 10px;
+}
+.menu ul li a:hover {
+  /* background: linear-gradient(90deg, #54a0ff, #f368e0); */
+  color: black;
+  transition: 0.5s;
+}
+.left-side {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.right-side {
+  width: 50%;
+  height: 500px;
+  margin-top: 100px;
+  padding: 60px;
+  text-align: center;
+}
+.right-side h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Michroma", sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.right-side p {
+  font-size: 30px;
+  color: black;
+  font-family: "Coming Soon", cursive;
+  font-weight: 700;
+}
+
+.parralex {
+  margin: 60px auto;
+}
+.line {
+  height: 3px;
+  width: 500px;
+  background: #0f0c29;
+  margin: 30px auto;
+}
+.quote {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  margin: 30px auto;
+}
+.education {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  margin: 40px auto;
+  /* font-family: "Marcellus SC", serif; */
+  font-family: "Michroma", sans-serif;
+}
+.university {
+  display: inline-block;
+  margin-left: 46%;
+  margin-bottom: 30px;
+}
+.university a {
+  font-size: 20px;
+  font-family: "Marcellus SC", serif;
+  text-decoration: none;
+  background-color: #3f5477;
+  color: chartreuse;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px 5px;
+  margin: 20px auto;
+}
+.university a:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.edu-description {
+  padding: 35px;
+  margin-top: 80px;
+  color: wheat;
+  font-family: monospace;
+}
+.fw-bold {
+  font-family: "Changa", sans-serif;
+}
+.college {
+  display: inline-block;
+  margin-left: 46%;
+  margin-top: 80px;
+}
+.college a {
+  font-size: 20px;
+  font-family: "Marcellus SC", serif;
+  text-decoration: none;
+  background-color: #3f5477;
+  color: chartreuse;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px 5px;
+}
+.college a:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.clg-description {
+  font-size: 30px;
+  margin-top: 250px;
+  color: wheat;
+  font-weight: 800;
+}
+.school {
+  display: inline-block;
+  margin-left: 46%;
+  margin-top: 80px;
+}
+.school a {
+  font-size: 20px;
+  font-family: "Marcellus SC", serif;
+  text-decoration: none;
+  background-color: #3f5477;
+  color: chartreuse;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px 5px;
+}
+.school a:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.school-description {
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Changa", sans-serif;
+  color: wheat;
+  margin-top: 200px;
+}
+.parralex-2 {
+  /* background: url(https://miro.medium.com/max/1000/1*pVAtEbTjgBDqBp0OXMxYww.jpeg); */
+  background: url(https://picjumbo.com/wp-content/uploads/office-work-things.jpg);
+  /* background: url(https://wallpaperaccess.com/full/2579513.jpg); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+.works {
+  position: absolute;
+  color: black;
+  left: 45%;
+  margin-top: 460px;
+}
+.works h1 {
+  background: #3f5477;
+  color: chartreuse;
+  padding: 30px;
+  border: 2px solid blanchedalmond;
+  border-radius: 5px;
+}
+.quote2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  margin-top: 30px;
+}
+.voluntary {
+  padding: 25px;
+  margin-top: 700px;
+  border: 2px solid white;
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+}
+.voluntary a {
+  color: white;
+  text-decoration: none;
+}
+.voluntary li {
+  list-style: none;
+}
+.voluntary:hover {
+  background: transparent;
+  border: 2px solid black;
+}
